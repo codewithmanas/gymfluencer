@@ -82,3 +82,37 @@ body {
   max-width: 857px;
   text-align: center;
 }
+
+.stats_number {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  flex-direction: row;
+  font-size: 50px;
+  font-family: "Inter", "Inter Placeholder", sans-serif;
+  font-weight: 700;
+  color:  rgb(255, 255, 255);
+}
+
+.stats_text {
+  text-align: center;
+  color: rgb(121, 123, 133);
+  font-family: "Space Grotesk", "Space Grotesk Placeholder", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 180%;
+  text-decoration: none;
+  text-transform: none;
+}
+
+.divider {
+  align-self: stretch;
+  background-color:  #1d1d20;
+  flex: none;
+  height: auto;
+  overflow: hidden;
+  position: relative;
+  width: 1px;
+}

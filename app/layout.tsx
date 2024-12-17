@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Orbitron, Space_Grotesk } from "next/font/google";
+import { Orbitron, Space_Grotesk, Inter, Inter_Tight } from "next/font/google";
 import "../styles/tailwind.css";
 import "../styles/globals.css";
 
@@ -10,6 +10,16 @@ const orbitron = Orbitron({
 
 const spaceGrotesk = Space_Grotesk({
   variable: "--font-space-grotesk",
+  subsets: ["latin"],
+});
+
+const inter = Inter({
+  variable: "--font-inter",
+  subsets: ["latin"],
+});
+
+const interTight = Inter_Tight({
+  variable: "--font-inter-tight",
   subsets: ["latin"],
 });
 
@@ -33,7 +43,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${orbitron.variable} ${spaceGrotesk.variable} antialiased`}
+        className={`${orbitron.variable} ${spaceGrotesk.variable} ${inter.variable} ${interTight.variable} antialiased`}
       >
         {children}
       </body>
