@@ -5,7 +5,7 @@ import CountUp from 'react-countup';
 
 const Stats = () => {
   return (
-    <div className="w-full mt-4">
+    <div className="w-full mt-">
         <div className="flex justify-center items-center h-full px-6 py-8 gap-4">
 
             <div className='flex flex-col items-center max-w-[312px] gap-4'>

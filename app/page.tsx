@@ -2,6 +2,7 @@ import Hero from "@/components/Hero/Hero";
 import InfiniteSlider from "@/components/InfiniteSlider";
 import Mission from "@/components/Mission";
 import Stats from "@/components/Stats";
+import VideoShowcase from "@/components/VideoShowcase";
 
 
 export default function Home() {
@@ -11,6 +12,7 @@ export default function Home() {
       <InfiniteSlider />
       <Mission />
       <Stats />
+      <VideoShowcase />
     </>
   );
 }
