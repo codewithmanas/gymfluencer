@@ -1,7 +1,7 @@
 
 const JoinButton = () => {
   return (
-    <button className="bg-red-600 text-white px-6 py-2 rounded-full hover:bg-red-700 transition-colors">
+    <button className="bg-[#EB0000] font-[family-name:var(--font-orbitron)] text-white text-lg font-medium px-7 py-[14px] rounded-[53px] ">
       Join us now
     </button>
   );

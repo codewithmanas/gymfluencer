@@ -1,18 +1,21 @@
+import Image from "next/image";
 
 const TrustBadge = () => {
   return (
-    <div className="flex items-center bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
+    <div className="flex items-center bg-[#18181A] backdrop-blur-sm pr-4 pl-[0.6rem] py-2 rounded-full border border-[#28282C]">
       <div className="flex -space-x-2 mr-2">
         {[1, 2, 3].map((i) => (
-          <img
+          <Image
             key={i}
-            src={`/avatar${i}.jpg`}
-            alt="User"
-            className="w-8 h-8 rounded-full border-2 border-white"
+            src={`/assets/images/avatar${i}.png`}
+            alt={`User${i}`}
+            width={32}
+            height={32}
+            className="w-7 h-7 rounded-full"
           />
         ))}
       </div>
-      <span className="text-white">Trusted by 3+ million users</span>
+      <span className="text-white font-[family-name:var(--font-space-grotesk)] font-medium leading-150">Trusted by 3+ million users</span>
     </div>
   );
 };

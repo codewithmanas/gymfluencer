@@ -2,8 +2,83 @@
     box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 html,
 body {
     margin: 0;
     padding: 0;
+}
+
+:root {
+    --background: #ffffff;
+    --foreground: #000000;
+    --width: 200px;
+    --height: 100px;
+    --quantity: 4;
+  }
+  
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --background: #000000;
+      --foreground: #ffffff;
+    }
+  }
+  
+  body {
+    color: var(--foreground);
+    background: var(--background);
+  }
+
+
+
+.item_a {
+  display: flex;
+  font-family: "Orbitron", "Orbitron Placeholder", sans-serif;
+  font-size: 72px;
+  letter-spacing: 0.01em;
+  line-height: 100%;
+  color: rgb(250, 249, 247);
+}
+
+.item_b  {
+  display: flex;
+  font-family: "Orbitron", "Orbitron Placeholder", sans-serif;
+  font-size: 72px;
+  letter-spacing: 0.01em;
+  line-height: 100%;
+  color: rgb(250, 249, 247);
+  color: #990000;
+}
+
+.mission_text{
+  font-family: "Orbitron", sans-serif;
+  font-size: 66px;
+  font-style: normal;
+  font-weight: 900;
+  letter-spacing: 0px;
+  line-height: 120%;
+  text-align: center;
+  color: rgb(204, 0, 0);;
+  text-decoration: none;
+  -webkit-text-stroke-color: initial;
+  stroke-width: initial;
+  text-transform: uppercase;
+}
+
+.mission_para {
+  font-family: "Space Grotesk", "Space Grotesk Placeholder", sans-serif;
+  color: rgb(239, 239, 239);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 160%;
+  word-spacing: 10px;
+  text-decoration: none;
+  text-transform: none;
+  max-width: 857px;
+  text-align: center;
 }

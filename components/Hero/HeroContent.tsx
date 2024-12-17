@@ -1,11 +1,11 @@
 
 const HeroContent = () => {
   return (
-    <div className="text-center max-w-4xl mx-auto">
-      <h1 className="text-red-600 text-6xl md:text-7xl font-bold mb-8 tracking-wider">
+    <div className="text-center max-w-6xl mx-auto">
+      <h1 className="text-[#EB0000] font-[family-name:var(--font-orbitron)] text-[34px] md:text-[85px] font-black mb-4 leading-120">
         Track Your Fitness Journey
       </h1>
-      <p className="text-gray-300 text-xl leading-relaxed">
+      <p className="text-[#DCDCDC] font-[family-name:var(--font-space-grotesk)] text-[18px] font-medium leading-150 md:px-[200px]">
         Discover the ultimate fitness companion with GymFluencer. Effortlessly log your workouts, count
         reps, and track calories burned. Stay motivated and achieve your goals with ease.
       </p>

@@ -1,9 +1,16 @@
+import Hero from "@/components/Hero/Hero";
+// import HeroContent from "@/components/Hero/HeroContent";
+import InfiniteSlider from "@/components/InfiniteSlider";
+import Mission from "@/components/Mission";
 
 
 export default function Home() {
   return (
     <>
-      <h1 className="text-3xl font-bold">Hello World!</h1>
+      <Hero />
+      <InfiniteSlider />
+      <Mission />
+      {/* <HeroContent /> */}
     </>
   );
 }

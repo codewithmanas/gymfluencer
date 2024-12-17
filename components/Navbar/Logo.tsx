@@ -1,9 +1,10 @@
+import Image from "next/image";
 
 const Logo = () => {
   return (
     <div className="flex items-center">
-      <img src="/logo.svg" alt="GymFluencer" className="h-8" />
-      <span className="text-white text-xl ml-2 font-semibold">GymFluencer</span>
+      <Image src="/assets/images/asset0.svg" alt="GymFluencer" height={32} width={64}  className="h-9 w-full" />
+      <span className="text-white text-xl ml-2 font-semibold sr-only">GymFluencer</span>
     </div>
   );
 };

@@ -8,7 +8,7 @@ const NavLinks = () => {
         <a
           key={link}
           href={`#${link.toLowerCase()}`}
-          className="text-gray-300 hover:text-white transition-colors"
+          className="text-[#96979C] hover:text-[#CC0000] transition-colors font-[family-name:var(--font-orbitron)] text-lg font-medium"
         >
           {link}
         </a>

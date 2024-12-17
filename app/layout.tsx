@@ -3,18 +3,6 @@ import { Orbitron, Space_Grotesk } from "next/font/google";
 import "../styles/tailwind.css";
 import "../styles/globals.css";
 
-// This is for reference purpose
-
-// const geistSans = Geist({
-//   variable: "--font-geist-sans",
-//   subsets: ["latin"],
-//   weight: ["400", "500", "700"],
-//   display: "swap",
-//   adjustFontFallback: false,
-//   fallback: ["Helvetica", "Arial", "sans-serif"],
-//   preload: true,
-// });
-
 const orbitron = Orbitron({
   variable: "--font-orbitron",
   subsets: ["latin"],
@@ -26,8 +14,15 @@ const spaceGrotesk = Space_Grotesk({
 });
 
 export const metadata: Metadata = {
-  title: "Gymfluencer",
-  description: "Gymfluencer - Track Your Fitness Journey",
+  title: "GymFluencer",
+  description: "GymFluencer - Track Your Fitness Journey",
+  icons: {
+    icon: [
+      { url: "/assets/images/asset27.svg", type: "image/svg+xml" },
+      { url: "/assets/images/asset27.png", type: "image/png", sizes: "32x32" },
+    ],
+    shortcut: "/assets/images/asset27.svg",
+  },
 };
 
 export default function RootLayout({
