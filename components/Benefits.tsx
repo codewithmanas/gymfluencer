@@ -57,7 +57,7 @@ const Benefits = () => {
               width={32}
               height={32}
               unoptimized
-              className="w-[90%] h-[90%] rounded-xl absolute z-10 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-[50%]"
+              className="w-[90%] h-[90%] object-contain rounded-xl absolute z-10 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-[50%]"
             />
           </div>
 
