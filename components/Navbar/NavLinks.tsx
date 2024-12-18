@@ -1,6 +1,6 @@
 
 const NavLinks = () => {
-  const links = ['Home', 'About', 'Our Services', 'Benifits', 'Blogs', 'Contact'];
+  const links = ['Home', 'About', 'Our Services', 'Benefits', 'Blogs', 'Contact'];
   
   return (
     <div className="hidden md:flex space-x-8">

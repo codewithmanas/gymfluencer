@@ -167,3 +167,11 @@ body {
   border-radius: 754px;
   padding: 16px;
 }
+
+/* Grid Image */
+.grid_image {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}

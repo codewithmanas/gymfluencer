@@ -1,3 +1,4 @@
+import Benefits from "@/components/Benefits";
 import Hero from "@/components/Hero/Hero";
 import InfiniteSlider from "@/components/InfiniteSlider";
 import Mission from "@/components/Mission";
@@ -15,6 +16,7 @@ export default function Home() {
       <Stats />
       <VideoShowcase />
       <OurServices />
+      <Benefits />
     </>
   );
 }
